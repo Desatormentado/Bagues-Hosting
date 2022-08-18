@@ -98,8 +98,8 @@ h3 {
 
 
 .info {
-   width: 550px;
-   height: 190px;
+   width: 53vw;
+   height: 16vw;
    display: flex;
    background: #f77faa;
    margin-right: 20px;
@@ -111,7 +111,7 @@ h3 {
 
 .info p {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 2vw;
     font-weight: bolder;
     margin: 24px;
 }
@@ -137,6 +137,7 @@ h3 {
     border-color: #f77faa;
     background-color: #f77faa;
     margin: 0% 4% 0% 4%;
+    width: 90vw;
 }
 
 
@@ -455,11 +456,16 @@ h3 {
     .info {
         margin: 20px auto 0px auto;
         border-radius: 40px;
-        width: 47vmax;
+        width: 74vw;
+        height: 42vw;
     }
 
     .carrusel2 {
         width: 74vw;
+    }
+
+    .info p {
+       font-size: 4vw;
     }
 }
 
@@ -470,7 +476,7 @@ h3 {
     }
 
     h3 {
-        font-size:38px;
+        font-size:12vw;
     }
 
     #sumate2 {
