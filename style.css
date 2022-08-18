@@ -83,7 +83,7 @@ h3 {
 .carrusel {
     width: 40vw;
     margin: 0px 0px 0px 124px;
-    border-radius: 18px;
+    border-radius: 3vw;
     overflow: hidden;
     display: flex;
     z-index: 1;
@@ -92,7 +92,7 @@ h3 {
 .carrusel2 {
     width: 68vw;
     margin: auto;
-    border-radius: 18px;
+    border-radius: 3vw;
     overflow: hidden;
 }
 
@@ -103,8 +103,8 @@ h3 {
    display: flex;
    background: #f77faa;
    margin-right: 20px;
-   border-bottom-right-radius: 40px;
-   border-top-right-radius: 40px;
+   border-bottom-right-radius: 3vw;
+   border-top-right-radius: 3vw;
    justify-content: center;
    align-items: center
 }
@@ -133,7 +133,7 @@ h3 {
 .bagues-containter {
     display: inline-block;
     border-style: solid;
-    border-radius: 40px;
+    border-radius: 3vw;
     border-color: #f77faa;
     background-color: #f77faa;
     margin: 0% 4% 0% 4%;
@@ -455,7 +455,7 @@ h3 {
 
     .info {
         margin: 20px auto 0px auto;
-        border-radius: 40px;
+        border-radius: 3vw;
         width: 74vw;
         height: 42vw;
     }
@@ -506,7 +506,7 @@ h3 {
 
     .carrusel {
         width: 61vw;
-        border-radius: 18px;
+        border-radius: 3vw;
     }
 
 
