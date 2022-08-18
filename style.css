@@ -35,12 +35,11 @@ nav li {
 }
 
 .body-containter {
-    opacity: 0.5;
     text-align: center;
 }
 
 .bloque1 {
-    background-color: #f00056;
+    background-color: #f77faa;
 }
 
 
@@ -69,27 +68,57 @@ h2 {
 
 }
 h3 {
-    margin: 200px 0px 70px 0px;
+    margin: 85px 0px 70px 0px;
     font-size: 50px;
     font-weight: 600;
-    color: #f00056;
+    color: #f77faa;
 }
 
-.info {
-    margin: 160px 0px 0px 0px;
+.carrusel-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
 }
+
 .carrusel {
+    width: 40vw;
+    margin: 0px 0px 0px 124px;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+}
+
+.carrusel2 {
     width: 68vw;
     margin: auto;
     border-radius: 18px;
     overflow: hidden;
 }
 
-.carrusel2 {
-    width: 40vw;
-    margin: 70px auto 0px auto;
-    border-radius: 18px;
-    overflow: hidden;
+
+.info {
+   width: 53vw;
+   height: 16vw;
+   display: flex;
+   background: #f77faa;
+   margin-right: 20px;
+   border-bottom-right-radius: 40px;
+   border-top-right-radius: 40px;
+   justify-content: center;
+   align-items: center
+}
+
+.info p {
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin: 24px;
+}
+
+
+.info2 {
+    margin: 80px 0px 0px 0px;
 }
 
 .catalogo {
@@ -105,9 +134,10 @@ h3 {
     display: inline-block;
     border-style: solid;
     border-radius: 40px;
-    border-color: #f00056;
-    background-color: #f00056;
+    border-color: #f77faa;
+    background-color: #f77faa;
     margin: 0% 4% 0% 4%;
+    width: 90vw;
 }
 
 
@@ -132,7 +162,7 @@ h3 {
 #sumate:hover {
     border: solid #ffffff;
     border-radius: 40px;
-    color: #f00056;
+    color: #f77faa;
     background-color: #ffffff;
     transition: background-color .5s;
 }
@@ -141,25 +171,25 @@ h3 {
     font-size: 25px;
     font-weight: 900;
     padding: 15px 47px;
-    border: solid #f00056;
+    border: solid #f77faa;
     border-radius: 40px;
-    color: #f00056;
+    color: #f77faa;
     display: inline-block;
     margin-top: 20px;
 }
 
 #sumate2:hover {
-    border: solid #f00056;
+    border: solid #f77faa;
     border-radius: 40px;
     color: #ffffff;
-    background-color: #f00056;
+    background-color: #f77faa;
     transition: background-color .5s;
 }
 
 .catalogo {
     width: 100%;
     height: 350px;
-    background-color: #f00056;
+    background-color: #f77faa;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -353,8 +383,7 @@ h3 {
 .footer {
     width: 100%;
     height: 200px;
-    background-color: #f00056;
-    opacity: 0.5;
+    background-color: #f77faa;
     margin-top: 70px;
 }
 
@@ -390,8 +419,8 @@ h3 {
     }
 
     .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited .btn-primary:active:focus {
-        background-color: #f00056;
-        border-color: #f00056;
+        background-color: #f77faa;
+        border-color: #f77faa;
         opacity: 0.5;
         box-shadow: none!important;
     }
@@ -411,13 +440,32 @@ h3 {
     }
 
     ul li a {
-        color: #f00056;
+        color: #f77faa;
         opacity: 0.5;
         font-weight: bolder;
     }
 
+    .carrusel-flex {
+        display: block;
+    }
+
+    .carrusel { 
+        margin: auto;
+    }
+
+    .info {
+        margin: 20px auto 0px auto;
+        border-radius: 40px;
+        width: 74vw;
+        height: 42vw;
+    }
+
     .carrusel2 {
         width: 74vw;
+    }
+
+    .info p {
+       font-size: 4vw;
     }
 }
 
@@ -428,7 +476,7 @@ h3 {
     }
 
     h3 {
-        font-size:38px;
+        font-size:12vw;
     }
 
     #sumate2 {
@@ -457,7 +505,7 @@ h3 {
     }
 
     .carrusel {
-        width: 87vw;
+        width: 61vw;
         border-radius: 18px;
     }
 
