@@ -451,6 +451,7 @@ h3 {
 
     .carrusel { 
         margin: auto;
+        width: 89vw;
     }
 
     .info {
@@ -461,7 +462,7 @@ h3 {
     }
 
     .carrusel2 {
-        width: 74vw;
+        width: 89vw;
     }
 
     .info p {
@@ -503,12 +504,6 @@ h3 {
     .box1 p, .box2 p, .box3 p, .box4 p {
         font-size: 13px;
     }
-
-    .carrusel {
-        width: 61vw;
-        border-radius: 3vw;
-    }
-
 
     .bagues-containter p {
         font-size: 20px;
